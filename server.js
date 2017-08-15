@@ -10,13 +10,28 @@ var articleone=
     title:'ARTICLE 1',
     heading:'ARTICLE 1',
     date:'August 15,2017',
-    content:`<p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>
+    content:`
+            <p>
+                This is my first article.This is my first article.This is my first article.This is my first article.This is my first
+                article.This is my first article.This is my first article.
+            </p>
         
-        <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>
+        <p>
+        This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This
+        is my first article.This is my first article.
         
-        <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>
+        </p>
         
-        <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>`
+        <p>
+        This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This
+        is my first article.This is my first article.
+        </p>
+        
+        <p>
+        This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This
+        is my first article.This is my first article.
+        
+        </p>`
     
 };
 function createTemplate(data){
