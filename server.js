@@ -37,10 +37,11 @@ var articleone=
 function createTemplate(data){
 var title=data.title;
 var heading=data.heading;
-var date=date.title;
+var date=date.date;
 var content=data.content;
 
-var htmltemplate=`<html>
+var htmltemplate=`
+    <html>
     <head>
     <title>
      ${title}
@@ -58,10 +59,10 @@ var htmltemplate=`<html>
         <hr/>
         ${heading}
         <div>
-            ${date}
+        ${date}
         </div>
         <div>
-            ${content}
+        ${content}
         </div>
        
     </body>
